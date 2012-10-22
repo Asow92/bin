@@ -1,6 +1,7 @@
 /*
 Lair_Brew ~ Caffeine ~
 Version 0.3
+By Andrew Sowers
 */
 
 #include <wiringPi.h>
