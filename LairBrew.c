@@ -1,5 +1,5 @@
 /*
-Lair_Brew ~ Caffine ~
+Lair_Brew ~ Caffeine ~
 Version 0.3
 */
 
@@ -35,16 +35,16 @@ int main (void)
     digitalWrite(pin, 0);
     delay(250);
     printf("\nEnjoy Your Coffee, Sir!\n");
- }
- else {
+  }
+  else {
     printf("\nType (y) to exit.\n");
     loopback();
- }
+  }
 
-if( ch == 'Y' ) exit_flag = 1;
+  if( ch == 'Y' ) exit_flag = 1;
 
 
- }
+  }
 
   return 0;
 }
